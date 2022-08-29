@@ -39,15 +39,22 @@ class MyClass
         catch (InvalidEmpIdException e)
         {
             Console.WriteLine(e.Message);
-        }*/
+        }
 
         List<Animal> list = new List<Animal>();
         list.Add(new Dog());
         list.Add(new Cat());
 
         foreach (Animal a in list)
-            Console.WriteLine(a.Sound());
-        
+            Console.WriteLine(a.Sound());*/
+
+        Science Student = new Science { regno = 1, Name = "ananya" };
+        Science sciencesubject = new Science { physics = 90, chemistry = 89, maths = 74 };
+        Commerce Commercessubject = new Commerce { economics = 45, accounts = 66, banking = 88 };
+
+        Console.WriteLine(sciencesubject.GetAvgMarks());
+        Console.WriteLine(Commercessubject.GetAvgMarks());
+
     }
  
 }

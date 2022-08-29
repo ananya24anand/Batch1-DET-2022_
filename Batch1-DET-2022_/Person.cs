@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace Batch1_DET_2022_
 {
-    public abstract class Students
+    public class Person
     {
-        public int regno { get; set; }
-        public string Name { get; set; }
-        public abstract double GetAvgMarks();
+        string fname;
+        string lname;
+        string mail;
 
     }
-
-
 }

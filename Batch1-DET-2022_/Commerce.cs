@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace Batch1_DET_2022_
 {
-    public class Science:Students
+    public class Commerce:Students
     {
-        public int physics { get; set; }
-        public int chemistry { get; set; }
-
-        public int maths { get; set; }
+        public int economics { get; set; }
+        public int accounts { get; set; }
+        public int banking { get; set; }
 
         public override double GetAvgMarks()
         {
-            return (physics + chemistry + maths) / 3;
+            return (economics + accounts + banking) / 3;
         }
     }
 }
+    
+
