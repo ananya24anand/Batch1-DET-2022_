@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Batch1_DET_2022_
 {
-    internal class emp
+    public class Emp
     {
         int id;
         string name;
         string dept;
         double sal;
-        DateOnly doj;
+        DateTime doj;
 
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
-        public emp(int eid, string ename, DateOnly doj)
+        public Emp(int eid, string ename, DateTime doj)
         {
             id = eid; name = ename; this.doj = doj;
         }
@@ -25,6 +25,11 @@ namespace Batch1_DET_2022_
         public int GetYearsofExp()
         {
             return DateTime.Now.Year - doj.Year;
+        }
+
+        public virtual string Print()
+        {
+            return $"Emp Id = {id}, Name = {name}, Experience = {GetYearsofExp()} years";
         }
     }
 }

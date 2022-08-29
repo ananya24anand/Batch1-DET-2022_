@@ -10,7 +10,7 @@ namespace Batch1_DET_2022_
     {
         public static void Main()
         {
-            emp e = new emp(5050, "Ananya", new DateOnly(2020, 8, 1));
+            Emp e = new Emp(5050, "Ananya", new DateTime(2020, 8, 1));
             Console.WriteLine($"Years of experience {e.GetYearsofExp()}");
         }
     }
