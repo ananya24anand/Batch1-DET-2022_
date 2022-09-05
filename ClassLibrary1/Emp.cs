@@ -8,18 +8,25 @@ namespace ClassLibrary1
 {
     public class Emp
     {
-        public DateTime Doj;
         int id;
         string name;
         string dept;
         double sal;
-        //DateTime doj;
-        public DateTime doj { get; set; }
+        public DateTime doj;
+
         //constructor - is a function used to init object data
         //has the same name as classname, no ret type
-        public Emp(int eid, string ename, DateTime doj)
+        public Emp(int id, string name, DateTime doj)
         {
-            id = eid; name = ename; this.doj = doj;
+            this.id = id; this.name = name; this.doj = doj;
+        }
+        public Emp()
+        {
+            id = -1; name = "no name";
+        }
+        public Emp(int id, string name)
+        {
+            this.id = id; this.name = name;
         }
 
         //function written inside a class is known as method
@@ -28,9 +35,11 @@ namespace ClassLibrary1
             return DateTime.Now.Year - doj.Year;
         }
 
-        public virtual string Print()
+        public string Print()   //only virtual method can be overridden
         {
-            return $"Emp Id = {id}, Name = {name}, Experience = {GetYearsofExp()} years";
+            return $"Emp Id={id}, Name={name}, Experience={GetYearsofExp()} Years";
         }
+
+
     }
 }
