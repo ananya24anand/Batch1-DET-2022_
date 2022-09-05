@@ -5,9 +5,14 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Batch1-DET-2022_", "Batch1-DET-2022_\Batch1-DET-2022_.csproj", "{1B593596-3B1D-41D0-A8B9-C8E071D4D7C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{9B25A42C-7752-4D2F-A9F8-E6ED7B122F57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{9B25A42C-7752-4D2F-A9F8-E6ED7B122F57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProj", "TestProj\TestProj.csproj", "{C6F66C00-ABBF-48D8-A232-2369AAA7E279}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProj", "TestProj\TestProj.csproj", "{C6F66C00-ABBF-48D8-A232-2369AAA7E279}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6AF426DB-2BB4-4543-A770-6F890CD2BD6C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

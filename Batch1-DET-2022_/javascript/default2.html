@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            $(document).ready(function(){
+                $('#test').click(function(event) {
+                    alert('Someone clicked me'); 
+                $('#test2').bind('click',function(){  
+                    $('#test').click();  
+}); 
+                });
+            });   
+        </script>
+        <script type="text/javascript"
+        src="http://code.jquery.com/jquery.js">
+        </script>
+    </head>
+    <body>
+        <div id="test">
+            click me
+        </div>
+        <div id="test2">
+            test2
+        </div>        
+    </body>
+</html>

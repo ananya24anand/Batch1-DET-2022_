@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Batch1_DET_2022_
 {
-    public class Manager:Emp
+    /*public class Manager:Emp
     {
         public string Project { get; set; }
 
@@ -22,5 +22,5 @@ namespace Batch1_DET_2022_
         {
             return $"Emp Details = {base.Print()}, Project = {Project}, Teamsize = {TeamSize}";
         }
-    }
+    }*/
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Batch1_DET_2022_
 {
-    public class Emp
+    /*public class Emp
     {
         int id;
         string name;
@@ -31,5 +31,5 @@ namespace Batch1_DET_2022_
         {
             return $"Emp Id = {id}, Name = {name}, Experience = {GetYearsofExp()} years";
         }
-    }
+    }*/
 }
