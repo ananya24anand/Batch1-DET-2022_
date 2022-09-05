@@ -23,7 +23,7 @@ namespace Batch1_DET_2022_
             //GetEmployeeSP();
             //UpdateNameSP();
             //AddEmpSP();
-            AddEmployeeSP();
+            //AddEmployeeSP();
 
         }
 
