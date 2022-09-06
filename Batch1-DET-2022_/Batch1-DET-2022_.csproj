@@ -6,7 +6,7 @@
     <RootNamespace>Batch1_DET_2022_</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Batch1_DET_2022_.LearningEF</StartupObject>
+    <StartupObject>Batch1_DET_2022_.CodeFirstEF</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
